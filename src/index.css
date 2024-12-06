@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+  .grad-overlay{
+    background: conic-gradient(#FF5260,60deg, black,220deg, #FF5260);
+    
+    mask-image: radial-gradient(#0000,50%,#000d,95%,#000f);
+  }
+
+  .grad-overlay-background{
+    background: conic-gradient(#FF5260,60deg, black,220deg, #FF5260);
+  }
+}
