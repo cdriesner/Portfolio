@@ -15,7 +15,7 @@ const App = () => {
               <a href='#about-me' className='mr-2 rounded-full bg-bush-orange px-4 py-2 capitalize'>
                 About Me
               </a>
-              <a className='m-2' href='/CalvinDriesnerResume2.pdf' download>
+              <a className='m-2' href='/MyResume.pdf' download>
                 Download Resume
               </a>
             </div>
